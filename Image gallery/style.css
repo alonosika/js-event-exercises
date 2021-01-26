@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+#largeImg {
+  border: solid 1px #ccc;
+  width: 650px;
+  height: 550px;
+  padding: 5px;
+}
+
+#thumbs a {
+  border: solid 1px #ccc;
+  width: 200px;
+  height: 200px;
+  padding: 3px;
+  margin: 2px;
+}
+
+#thumbs a:hover {
+  border-color: #ff9900;
+}
+
+#thumbs li {
+  list-style: none;
+  border: solid 1px #ccc;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  float: left;
+  margin: 15px;
+}
+
+#thumbs {
+  margin: 0;
+  padding: 0;
+}

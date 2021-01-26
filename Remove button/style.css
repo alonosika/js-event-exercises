@@ -1,0 +1,32 @@
+* {
+  margin: 10px auto;
+  width: 600px;
+}
+
+.pane {
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  background-color: black;
+  color: white;
+  width: 1000px;
+  padding: 10px 20px 10px;
+  border-top: solid 2px #c4df9b;
+  position: relative;
+}
+
+.remove-button {
+  float: right;
+  font-size: 110%;
+  color: darkred;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
